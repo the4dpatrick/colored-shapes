@@ -64,6 +64,18 @@ h1 {
 	border-style: solid;
 	border-color: red transparent;
 }
+#top-pent {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -178px;
+	margin-top: -59px;
+	border-bottom: 180px solid red;
+	border-right: 225px solid transparent;
+	border-left: 225px solid transparent;
+	z-index: 996;
+}
+/*
 #pentagon:before {
 	content: "";
 	position: absolute;
@@ -76,7 +88,6 @@ h1 {
 	border-color: transparent transparent red;
 	z-index: 996;
 }
-/*
 #hexagon {
 	width: 100px;
 	height: 55px;
