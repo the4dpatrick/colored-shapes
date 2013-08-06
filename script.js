@@ -14,5 +14,10 @@ $(document).ready(function(){
 		$('#top-pent').css("border-bottom-color", rc3);
 		$('#circle').css('background', rc4);
 		$('.container').css('background', rc5);
+		$('#tri').html(rc1);
+		$('#square').html(rc2);
+		$('#pentagon').html("<p>" + rc3 + "</p>");
+		$('#circle').html("<p>" + rc4 + "</p>");
+		$('#bgcolor').html("<p>" + rc5 + "</p>");
 	})
 })
