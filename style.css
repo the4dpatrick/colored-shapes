@@ -1,0 +1,143 @@
+h1 {
+	color: black;
+	font-size: 3em;
+	text-align: center;
+	padding-top: 10px;
+}
+.wrapper {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -47px;
+	margin-top: -193px;
+}
+#random {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: 198px;
+	margin-left: 13px;
+	z-index: 999;
+	color: white;
+}
+#random p {
+	user-select: none;
+}
+#random p:hover {
+	cursor: pointer;
+}
+#tri {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -5px;
+	margin-top: 133px;
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid red;
+	z-index: 998;
+}
+#tri:hover {
+	cursor:pointer;
+}
+#square {
+	width: 200px;
+	height: 200px;
+	background: blue;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -50px;
+	margin-top: 89px;
+	z-index: 997;
+}
+#pentagon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -177px;
+	margin-top: 121px;
+	width: 250px;
+	border-width: 277px 100px 0;
+	border-style: solid;
+	border-color: red transparent;
+}
+#pentagon:before {
+	content: "";
+	position: absolute;
+	height: 0;
+	width: 0;
+	top: -472px;
+	left: -100px;
+	border-width: 0 225px 195px;
+	border-style: solid;
+	border-color: transparent transparent red;
+	z-index: 996;
+}
+/*
+#hexagon {
+	width: 100px;
+	height: 55px;
+	hackground: red;
+	position: relative;
+}
+#hexagon:before {
+	content: "";
+	position: absolute;
+	top: -25;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 25px solid red;
+}
+#hexagon:after {
+	content: "";
+	position: absolute;
+	bottom: -25px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 25px solid red;
+}
+#octagon {
+	width: 100px;
+	height: 100px;
+	background: red;
+	position: relative;
+}
+#octagon:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-bottom: 29px solid red;
+	border-left: 29px solid #eee;
+	border-right: 29px solid #eee;
+	width: 42px;
+	height: 0;
+}
+#octagon:after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	border-top: 29px solid red;
+	border-left: 29px solid #eee;
+	border-right: 29px solid #eee;
+	width: 42px;
+	height: 0;
+}
+#circle {
+	width: 100px;
+	height: 100px;
+	background: red;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}*/
